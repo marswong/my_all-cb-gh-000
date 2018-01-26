@@ -8,10 +8,10 @@ def my_all?(collection)
         i += 1
       else
         break
-        false
+        return false
       end
     end
-    true
+    return true
   else
     throw SyntaxError
   end
